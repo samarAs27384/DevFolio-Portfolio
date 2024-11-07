@@ -1,0 +1,242 @@
+:root {
+  --main-color: rgb(84, 111, 141);
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background-image: url(img/hero-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.header-content h1 {
+  font-size: 5rem;
+}
+
+.header-content h2 {
+  font-size: 3rem;
+}
+
+.about-data {
+  position: relative;
+}
+
+.about-data::after {
+  content: "";
+  background-color: var(--main-color);
+  height: 0.2rem;
+  width: 22%;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+.services-head span {
+  position: relative;
+}
+.services-head span::after {
+  content: "";
+  background-color: var(--main-color);
+  height: 0.4rem;
+  width: 10%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -20px;
+}
+.icon {
+  width: 5rem;
+  height: 5rem;
+  border: solid var(--main-color) 10px;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  background-color: var(--main-color);
+  border: solid #cde1f8 10px;
+}
+
+.result-icon {
+  width: 5rem;
+  height: 5rem;
+  border: solid #cde1f8 10px;
+}
+.layer-2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/post-3.jpg);
+}
+.result-container {
+  background-color: #0078ff;
+  opacity: 75%;
+  width: 100%;
+}
+.main-color {
+  color: var(--main-color);
+}
+.port-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid var(--main-color) 2px;
+  border-radius: 50%;
+  color: var(--main-color);
+}
+.scla-hover {
+  transition: all 1s;
+}
+.scla-hover:hover {
+  scale: 130%;
+}
+.port-head {
+  position: relative;
+}
+.port-head span::after {
+  content: "";
+  background-color: var(--main-color);
+  height: 0.4rem;
+  width: 4%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 7rem;
+}
+
+.layer-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/overlay-bg.jpg);
+}
+
+.testimonial-container {
+  background-color: rgba(0, 120, 255, 0.7);
+  width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.blog-head p {
+  position: relative;
+}
+.blog-head p::after {
+  content: "";
+  background-color: var(--main-color);
+  height: 0.3rem;
+  width: 4%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -20px;
+}
+
+.blog-img {
+  width: 2rem;
+  height: 2rem;
+  border: solid transparent 0px;
+  border-radius: 50%;
+}
+.avatar {
+  background-color: #f5f5f5;
+}
+.blu-hover a {
+  color: black;
+  transition: all 1s;
+}
+
+.blu-hover a:hover {
+  color: var(--main-color);
+}
+
+.bolg-hint-icon {
+  border: solid 1px var(--main-color);
+  background-color: var(--main-color);
+  color: white;
+}
+.blog-hint {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%) translateY(-50%);
+}
+.contact-span {
+  position: relative;
+}
+.contact-span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.send-btn {
+  border: solid var(--main-color) 6px;
+  background-color: var(--main-color);
+  color: white;
+  transition: all 1s;
+}
+
+.send-btn:hover {
+  background-color: var(--main-color);
+  border: solid #4f5153 6px;
+}
+.contact-data i {
+  color: var(--main-color);
+}
+
+.social-icon {
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+  background-color: white;
+  transition: all 1s;
+}
+.social-icon:hover {
+  background-color: var(--main-color);
+  color: #f5f5f5;
+}
+.contact {
+  background-color: #f5f5f5;
+}
+.contact-layer {
+  background-image: url(img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-contact {
+  background-color: rgba(0, 120, 255, 0.7);
+}
+
+.footer {
+  background-color: #0062d3;
+}
+
+.go-top {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid 1px var(--main-color);
+  background-color: var(--main-color);
+  color: white;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  transition: all 1s;
+}
+
+.go-top:hover {
+  color: white;
+  background-color: rgba(0, 120, 255, 0.7);
+}
